@@ -1,7 +1,7 @@
 // import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-import Photo from './assets/Photo.png'
+import Photo from './assets/avatar.jpg'
 import './App.css'
 import Profile from './component/Profile'
 
@@ -10,8 +10,13 @@ function App() {
 
   return (
     <>
-    <p className="testing  ">hello ucup dan dontol</p>
+    {/* <p className="testing  ">hello ucup dan dontol</p> */}
+
+
     <Profile greeting="Assalamualaikum" name="Ukhty wa Akhy" avatar={Photo} />
+
+
+    
       {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

@@ -1,42 +1,25 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
+
 import Photo from './assets/avatar.jpg'
 import './App.css'
 import Profile from './component/Profile'
+import Verse from './component/Verse'
 
 function App() {
-  // const [count, setCount] = useState(0)
+
 
   return (
     <>
-    {/* <p className="testing  ">hello ucup dan dontol</p> */}
-
+   
+    <p className="testing bg-amber-100 ">hello ucup dan dontol</p>
 
     <Profile greeting="Assalamualaikum" name="Ukhty wa Akhy" avatar={Photo} />
+    <Verse 
+      verse="“He said: ‘Therein you shall live, and therein you shall die, and from it you shall be brought out (i.e. resurrected).’”" 
+      surah="Al-A'raaf (7:25)"/>
 
 
     
-      {/* <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p> */}
+
     </>
   )
 }

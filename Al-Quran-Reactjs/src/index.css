@@ -1,5 +1,18 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #a245fa;
+  --color-secondary: #f8f5fd;
+  --color-text: #322d4c;
+  --color-subtle: #c2c3ca;
+  --color-accent: #ff7532;
+  --color-light: #ffffff;
+  --color-dark: #111e4e;
+  --color-background: #001140;
+  --color-accent-light: rgba(160, 187, 255, 0.2);
+  --color-accent-light-purple: rgba(108, 142, 255, 0.4);
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

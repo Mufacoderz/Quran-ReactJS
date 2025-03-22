@@ -1,7 +1,8 @@
 
 
 import './App.css'
-import Hero from './component/Hero'
+
+import HomePage from './pages/HomePages'
 
 function App() {
 
@@ -9,7 +10,7 @@ function App() {
   return (
     <>
    
-      <Hero/>
+      <HomePage/>
 
     </>
   )

@@ -7,6 +7,7 @@ type SurahCardProps = {
 
 function SurahCard({surah}: SurahCardProps){
     return(
+        <link to={`/surah/${surah.nomor}`}>
         <div className="bg-dark p-4 rounded-lg flex justify-between gap-3 ">
             <div>
             <Number nomor={surah.nomor} />
@@ -18,6 +19,7 @@ function SurahCard({surah}: SurahCardProps){
             </div>
             <p>{surah.nama}</p>
         </div>
+        </link>
     )
 }
 

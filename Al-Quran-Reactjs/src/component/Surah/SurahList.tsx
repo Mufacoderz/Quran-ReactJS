@@ -7,7 +7,7 @@ type SurahListProps = {
 
 function SurahList ({surahs}: SurahListProps){
     return(
-        <div className="flex flex-col gap-3">
+        <div className="flex flex-col gap-3 p-5">
             {surahs.map((surah) => (
                 <SurahCard key={surah.nomor} surah={surah} />
             ))}

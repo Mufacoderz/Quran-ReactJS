@@ -18,7 +18,7 @@ function SurahCard({ surah }: SurahCardProps) {
                         <p className="text-subtle">{surah.tempatTurun} • {surah.jumlahAyat}</p>
                     </div>
                 </div>
-                <p className="font-bold text-xl">{surah.nama}</p>
+                <p className="font-bold text-xl text-arab-blue">{surah.nama}</p>
             </div>
         </Link>
     );

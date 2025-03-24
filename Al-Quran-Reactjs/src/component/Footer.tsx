@@ -10,7 +10,7 @@ const Footer = () => {
             href="https://github.com/Mufacoderz"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-black hover:text-gray-600 transition"
+            className="text-arab-blue hover:text-blue-600 transition"
           >
             <FaGithub size={24} />
           </a>
@@ -18,7 +18,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/muhammad-fadil-1264b82a9/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-black hover:text-gray-600 transition"
+            className="text-arab-blue hover:text-blue-600 transition"
           >
             <FaLinkedin size={24} />
           </a>

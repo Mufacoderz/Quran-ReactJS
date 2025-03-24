@@ -1,4 +1,4 @@
-import heroImage from '../assets/HeroBackgroundImage.png';
+import heroImage from '../assets/herobg2.jpg';
 import Photo from '../assets/avatar.jpg'
 
 import Profile from './Profile'

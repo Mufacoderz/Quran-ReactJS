@@ -1,16 +1,17 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #a245fa;
-  --color-secondary: #f8f5fd;
-  --color-text: #322d4c;
-  --color-subtle: #c2c3ca;
-  --color-accent: #ff7532;
-  --color-light: #ffffff;
-  --color-dark: #111e4e;
-  --color-background: #001140;
-  --color-accent-light: rgba(160, 187, 255, 0.2);
-  --color-accent-light-purple: rgba(108, 142, 255, 0.4);
+  --color-primary: #0a192f; /* Biru navy gelap untuk elemen utama */
+  --color-secondary: #112240; /* Biru lebih terang untuk elemen sekunder */
+  --color-text: #ffffff; /* Putih untuk teks agar kontras */
+  --color-subtle: #8892b0; /* Biru keabu-abuan lembut untuk elemen pendukung */
+  --color-accent: #00bcd4; /* Biru cyan terang sebagai aksen */
+  --color-light: #ffffff; /* Putih bersih untuk keseimbangan */
+  --color-dark: #0d254d; /* Biru sangat gelap untuk background utama */
+  --color-background: #0a192f; /* Warna utama biru gelap */
+  --color-accent-light: rgba(0, 188, 212, 0.3); /* Biru cyan transparan untuk efek lembut */
+  --color-accent-light-purple: rgba(100, 181, 246, 0.3); /* Biru pastel transparan */
+  --color-arab-blue: #0030f9;
 }
 
 :root {

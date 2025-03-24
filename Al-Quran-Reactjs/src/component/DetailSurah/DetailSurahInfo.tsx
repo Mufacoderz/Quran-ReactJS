@@ -7,7 +7,7 @@ type DetailSurahInfoProps = {
 
 function DetailSurahInfo({ surah }: DetailSurahInfoProps) {
   return (
-    <div className="bg-[url('/src/assets/AyatBackgroundImage.png')] relative  bg-cover bg-no-repeat py-5 px-4 rounded-2xl text-light text-left">
+    <div className="bg-[url('/src/assets/AyatCard.jpg')] relative  bg-cover bg-no-repeat py-5 px-4 rounded-2xl text-light text-left">
       <div className="mb-8 flex flex-col gap-2">
         <p className="font-bold text-2xl">{surah.namaLatin} </p>
         <p className="font-light text-sm">{surah.arti}</p>

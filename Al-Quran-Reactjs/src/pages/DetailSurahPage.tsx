@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 function DetailSurahPage(){
     return(
         <>
-        <div className="p-5 text-left">
+        <div className="p-5 text-left ">
         <Link to="/" className="text-light">
           ← Daftar Surah
         </Link>

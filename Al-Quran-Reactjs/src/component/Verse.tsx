@@ -1,5 +1,5 @@
 
-import bgImage from '/src/assets/card2.jpg';
+import bgImage from '/src/assets/cardfix.jpg';
 
 
 type VerseProps = {

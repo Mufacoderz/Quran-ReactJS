@@ -1,4 +1,4 @@
-[Live](https://quran-react-js-rmie.vercel.app/)
+
 
 
 # React + TypeScript + Vite

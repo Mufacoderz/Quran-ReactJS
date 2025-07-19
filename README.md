@@ -1,3 +1,6 @@
 # Quran-ReactJS
 
-[Live Preview](https://quran-react-js-rmie.vercel.app/)
+## 🖼️Preview
+![Preview](preview.png)
+
+[Live Demo](https://quran-react-js-rmie.vercel.app/)
